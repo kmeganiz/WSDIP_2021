@@ -194,9 +194,6 @@ article, aside .left, .right {
   background-color: white;
   opacity: 0.7;
   text-transform: uppercase;
-  transform: translate(0, 1100%);
-  padding-left: 1%;
-  min-width: 100%;
 }
 
 /* Footer */
@@ -254,6 +251,11 @@ article, aside .left, .right {
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
   }
+  .img-tag {
+    transform: translate(0, 750%);
+    padding-left: 1%;
+    min-width: 100%;
+    }
 } 
 
 
@@ -288,6 +290,12 @@ article, aside .left, .right {
   .login.form-control {
     background-color: #FFD452 !important;
   }
+
+  .img-tag {
+  transform: translate(0, 950%);
+  padding-left: 1%;
+  min-width: 100%;
+  }
 }
 
 @media (min-width:1400px) {
@@ -320,5 +328,11 @@ article, aside .left, .right {
 
   .table-time th {
     padding-right: 50px;
+  }
+
+  .img-tag {
+  transform: translate(0, 1100%);
+  padding-left: 1%;
+  min-width: 100%;
   }
 }
