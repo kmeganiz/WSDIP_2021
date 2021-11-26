@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'argonPERSONAL-Regular';
+  src: url(../../../Fonts/ArgonPERSONAL-Regular.otf);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-weight: 400;
+  color: #2E1180;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  background-color: white;
+  padding: 10px 30px;
+  font-weight: 900;
+}
+
+.nav-link {
+  text-transform: lowercase;
+  color: #2E1180 !important;
+}
+
+.nav-item {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.nav-item a {
+  text-align: center;
+}
+
+.nav-link:hover, .nav-item.activate {
+  background-color: #FFD452;
+}
+
+.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  background-color: #FFD452;
+}
+/* end of navbar */
+
+/* Main */
+.subtitle, .subsubtitle, .goh {
+  color: #2E1180;
+}
+
+.programme {
+  font-weight: 900;
+  border-radius: 0;
+  margin-top: 30px;
+}
+
+.contactus {
+  font-weight: 800;
+  border-radius: 0;
+}
+
+.courses {
+  font-weight: 900;
+}
+
+.registration {
+  background-color: #FFD452;
+}
+
+.submit {
+  background-color: #2E1180 !important;
+  color: #FFD452;
+  font-weight: 900;
+  width: 240px;
+  border-radius: 0;
+}
+
+.login-btn {
+  background-color: #2E1180 !important;
+  color: #FFD452;
+  font-weight: 900;
+  width: 340px;
+  border-radius: 0;
+}
+
+.register-btn {
+  background-color: #EE685F !important;
+  color: white;
+  font-weight: 900;
+  width: 340px;
+  border-radius: 0;
+}
+
+.submit-orange {
+  background-color: #EE685F !important;
+  color: white;
+  font-weight: 900;
+  width: 200px;
+  border-radius: 0;
+}
+
+.login {
+  background-color: #FCEBC3;
+}
+
+article, aside .left, .right {
+  margin: 0;
+  position: relative;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36.7px;
+  margin-top: 0;
+  padding-top: 0
+}
+
+.subsubtitle, .goh {
+  font-weight: 600;
+}
+
+.subsubtitle {
+  line-height: 0.7rem;
+}
+
+.goh {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.table {
+  width: auto;
+  color: #2E1180;
+  font-weight: 700;
+}
+
+.table-time {
+  background-color: #2E1180 !important;
+  color: #FFD452;
+}
+
+.btn.register.btn-warning {
+  background-color: #FFD452 !important;
+  font-weight: 900;
+  border-radius: 0;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.registration {
+  font-weight: 700;
+}
+
+.programme tr:nth-child(even) {
+  background-color: #C9C7CA;
+}
+
+.table-end {
+  border-color: #2E1180;
+  border-bottom-width: 5px;
+}
+
+.courses p {
+  font-weight: 800;
+  padding-top: 10px;
+}
+
+.form-control, .form-select, .form-check, #inputStete {
+  background-color: transparent !important;
+  border-color: #2E1180; 
+  border-radius: 0;
+}
+
+.form-check-input {
+  background-color: #2E1180;
+}
+
+.img-tag {
+  background-color: white;
+  opacity: 0.7;
+  text-transform: uppercase;
+  transform: translate(0, 1100%);
+  padding-left: 1%;
+  min-width: 100%;
+}
+
+/* Footer */
+.footer {
+  background-color: white !important;
+}
+
+.footer, .footer a, .footer.small {
+  color: #2E1180;
+  font-weight: 900;
+}
+
+.footer span {
+  text-align: left;
+}
+
+.social-media {
+  text-align: center;
+  }
+/* end of Footer */  
+
+@media (min-width: 375px) {
+  body.landingpage, body.programmepage {
+    background-image: url(../../images/ITE-WSDIP_lp_left_crop.png), url(../../images/ITE-WSDIP_lp_right_crop.png);
+    background-size: 30%, 30%;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .navbar {
+    padding: 5px 10px;
+  }
+  .footer {
+    padding: 0 10px 0 10px;
+  }
+  .footer, .footer a, .footer.small, .social-media {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (min-width: 600px) {
+  body.landingpage, body.programmepage {
+    background-image: url(../../images/ITE-WSDIP_lp_left_crop2.png), url(../../images/ITE-WSDIP_lp_right_crop2.png);
+    background-size: 20%, 20%;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+}
+
+@media (min-width: 900px) {
+  body.landingpage, body.programmepage {
+    background-image: url(../../images/ITE-WSDIP_lp_left_crop1.png), url(../../images/ITE-WSDIP_lp_right_crop1.png);
+    background-size: contain, contain;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+} 
+
+
+@media (min-width:1200px) {
+  article {
+    max-width: 845px;
+  }
+
+  body.landingpage {
+    background-image: url(../../images/ITE-WSDIP_lp_left_crop.png), url(../../images/ITE-WSDIP_lp_right_crop.png);
+    background-size: contain, contain;
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  body.programmepage {
+    background-image: url(../../images/ITE-WSDIP_programme_left.jpg), url(../../images/ITE-WSDIP_programme_right.jpg);
+    background-size: contain, contain;
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .registration, .login {
+    width: 1000px;
+    height: 1000px;
+  }
+
+  .landingpage form {
+    font-weight: 700;
+  }
+
+  .login.form-control {
+    background-color: #FFD452 !important;
+  }
+}
+
+@media (min-width:1400px) {
+  body.landingpage {
+    background-image: url(../../images/bg_landingpage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  body.programmepage, body.contactpage {
+    background-image: url(../../images/bg_programme.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .body.coursespage {
+    background-image: url(../../images/bg_programme.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .registration, .login {
+    width: 1200px;
+    height: auto;
+    padding: 100px;
+  }
+
+  .table-time th {
+    padding-right: 50px;
+  }
+}
