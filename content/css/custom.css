@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
-@font-face {
-  font-family: 'argonPERSONAL-Regular';
-  src: url(../../../Fonts/ArgonPERSONAL-Regular.otf);
-}
 
 html {
   box-sizing: border-box;
@@ -194,6 +190,15 @@ article, aside .left, .right {
   background-color: white;
   opacity: 0.7;
   text-transform: uppercase;
+  z-index: 1;
+}
+
+.coursespage img {
+  z-index: -1;
+}
+
+.coursespage .container {
+  z-index: 0;
 }
 
 /* Footer */
@@ -241,7 +246,14 @@ article, aside .left, .right {
     background-size: 20%, 20%;
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
+  }  
+  .coursespage.container.courses {
+    background-image: url(../../images/bg_programme.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
+
 }
 
 @media (min-width: 900px) {
@@ -251,13 +263,13 @@ article, aside .left, .right {
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
   }
+
   .img-tag {
     transform: translate(0, 750%);
     padding-left: 1%;
     min-width: 100%;
-    }
+  }
 } 
-
 
 @media (min-width:1200px) {
   article {
@@ -313,7 +325,7 @@ article, aside .left, .right {
     background-repeat: no-repeat;
   }
 
-  .body.coursespage {
+  .coursespage.container.courses {
     background-image: url(../../images/bg_programme.jpg);
     background-size: cover;
     background-position: center;
