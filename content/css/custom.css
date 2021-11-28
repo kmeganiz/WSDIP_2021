@@ -194,11 +194,7 @@ article, aside .left, .right {
 }
 
 .coursespage img {
-  z-index: -1;
-}
-
-.coursespage .container {
-  z-index: 0;
+  top: 0px;
 }
 
 /* Footer */
