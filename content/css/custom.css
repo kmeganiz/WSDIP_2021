@@ -225,6 +225,31 @@ article, aside .left, .right {
 
 /* end of Footer */  
 
+@media (min-width: 320px) {
+  body.landingpage, body.programmepage {
+    background-image: url(../../images/ITE-WSDIP_lp_left_crop.png), url(../../images/ITE-WSDIP_lp_right_crop.png);
+    background-size: 30%, 30%;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .navbar {
+    padding: 5px 10px;
+  }
+
+  .footer, .footer a, .footer.small, .social-media {
+    font-size: 0.8rem;
+  }
+  .social-media img {
+    width: 100%;
+  }
+
+  .img-tag {
+    font-size: 70%;
+    top: 160px;
+  }
+}
+
 @media (min-width: 375px) {
   body.landingpage, body.programmepage {
     background-image: url(../../images/ITE-WSDIP_lp_left_crop.png), url(../../images/ITE-WSDIP_lp_right_crop.png);
