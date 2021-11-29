@@ -268,8 +268,19 @@ article, aside .left, .right {
   .social-media img {
     width: 100%;
   }
+
+  .img-tag {
+    font-size: 100%;
+    top: 190px;
+  }
 }
 
+@media (min-width: 414px) {
+  .img-tag {
+    font-size: 100%;
+    top: 220px;
+  }
+}
 
 @media (min-width: 600px) {
   body.landingpage, body.programmepage {
@@ -283,6 +294,10 @@ article, aside .left, .right {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  .img-tag {
+    font-size: 100%;
+    top: 190px;
   }
 
 }
