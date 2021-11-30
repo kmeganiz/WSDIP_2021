@@ -210,6 +210,10 @@ article, aside .left, .right {
   width: 100%;
 }
 
+.coursespage div.listing {
+  margin-top: 40px;
+}
+
 /* Footer */
 .footer {
   background-color: white !important;
@@ -413,7 +417,7 @@ article, aside .left, .right {
   }
 
   .img-tag {
-    top: 250px;
+    top: 248px;
     font-size: 100%;
   }
 }
